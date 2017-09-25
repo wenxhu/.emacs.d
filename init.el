@@ -20,13 +20,12 @@
     monokai-theme            ;; A fruity color theme for Emacs
     jazz-theme               ;; A warm color theme for Emacs
     helm                     ;; Incremental and narrowing framework
-    magit                    ;; A Git Porcelain inside Emacs
+    magit                    ;; A Git Porcelain inside Emacs
     company                  ;; Modular text completion framework
     flycheck                 ;; On-the-fly syntax checking
     yasnippet                ;; Yet another snippet extension
     projectile               ;; Manage and navigate projects in Emacs easily
-    tide                     ;; Typrscript Interactive Development Environment
-    
+    tide                     ;; Typrscript Interactive Development Environment
     ))
 
 (mapc #'(lambda (package)
@@ -102,17 +101,3 @@
 ;; --------------------------------------
 
 (provide 'init)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (tide projectile yasnippet flycheck company magit helm jazz-theme monokai-theme material-theme leuven-theme dracula-theme))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
